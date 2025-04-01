@@ -3,4 +3,6 @@
 @theme {
   --color-primary: #ffe4e0;
   --color-secondary: #c0908c;
+
+  --font-playfair: "Playfair Display", "serif";
 }

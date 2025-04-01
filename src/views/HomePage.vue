@@ -2,8 +2,8 @@
   <div class="min-n-screen">
     <Suspense>
       <template #default>
-        <div>
-          <LoadingSpinner />
+        <div class="font-playfair">
+          <NavBar />
         </div>
       </template>
       <template #fallback>
@@ -17,4 +17,5 @@
 
 <script setup>
 import LoadingSpinner from "@/components/LoadingSpinner.vue";
+import NavBar from "@/components/NavBar.vue";
 </script>
