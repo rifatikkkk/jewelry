@@ -5,6 +5,7 @@
         <div class="font-playfair">
           <NavBar />
           <HeroSection />
+          <Collection />
         </div>
       </template>
       <template #fallback>
@@ -20,4 +21,5 @@
 import LoadingSpinner from "@/components/LoadingSpinner.vue";
 import NavBar from "@/components/NavBar.vue";
 import HeroSection from "@/components/HeroSection.vue";
+import Collection from "@/components/Collection.vue";
 </script>
