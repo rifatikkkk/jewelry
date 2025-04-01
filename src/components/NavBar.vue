@@ -115,7 +115,7 @@ const Menu = ref([
     href: "#giftideas",
   },
   {
-    name: "Contack",
+    name: "Contact",
     href: "#contact",
   },
 ]);

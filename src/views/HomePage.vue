@@ -4,6 +4,7 @@
       <template #default>
         <div class="font-playfair">
           <NavBar />
+          <HeroSection />
         </div>
       </template>
       <template #fallback>
@@ -18,4 +19,5 @@
 <script setup>
 import LoadingSpinner from "@/components/LoadingSpinner.vue";
 import NavBar from "@/components/NavBar.vue";
+import HeroSection from "@/components/HeroSection.vue";
 </script>
